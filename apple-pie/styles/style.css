@@ -31,6 +31,7 @@ body {
   font-family: "Helvetica", sans-serif;
   font-size: 14px;
   margin: 0 auto;
+
 }
 
 /* STYLES */
@@ -69,7 +70,7 @@ hr {
 
 .ingredients-title {
   font-weight: bold;
-  padding: 5% 0;
+  padding: 2% 0;
   color: gray;
 }
 
@@ -86,3 +87,9 @@ hr {
 content: "-";
 }
 
+.direction {
+  list-style: none;
+  color: gray;
+  margin-bottom:100px;
+
+}
