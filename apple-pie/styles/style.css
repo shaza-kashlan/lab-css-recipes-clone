@@ -79,6 +79,7 @@ hr {
 
 .ingredient-list li{
   font-size: 15px;
+  color: gray;
 }
 
 .ingredient-list li:before {
