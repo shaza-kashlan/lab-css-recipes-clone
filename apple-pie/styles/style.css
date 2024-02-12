@@ -41,6 +41,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-top: 30px;
 }
 .title {
   background-image: url("../images/apple-pie.jpg");
@@ -65,3 +66,22 @@ hr {
   margin-left: 200px;
   margin-right: 200px;
 }
+
+.ingredients-title {
+  font-weight: bold;
+  padding: 5% 0;
+  color: gray;
+}
+
+.ingredient-list {
+  list-style: none;
+}
+
+.ingredient-list li{
+  font-size: 15px;
+}
+
+.ingredient-list li:before {
+content: "-";
+}
+
